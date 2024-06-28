@@ -124,3 +124,6 @@ class AIModel1(BaseAI):
 
     def ad_campaign(self):
         return "Advertisement Campaign Service initiated. We will set up and manage marketing campaigns on major platforms and streamline appointment scheduling."
+
+
+# daphne -p 8001 tonoic.asgi:application
